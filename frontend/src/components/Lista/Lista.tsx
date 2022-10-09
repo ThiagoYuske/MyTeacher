@@ -19,7 +19,7 @@ const Lista = (props: ListaProps) => {
                                 <Nome>{professor.nome}</Nome>
                                 <Valor>{professor.valor_hora.toLocaleString('pt-BR', { minimumFractionDigits: 2, style: 'currency', currency: 'BRL' })} por hora</Valor>
                                 <Descricao>{professor.descricao}</Descricao>
-                                <Button sx={{ width: '70%' }}>Marcar Aula com Thiago</Button>
+                                <Button sx={{ width: '70%' }}>Marcar Aula com {professor.nome}</Button>
                             </Informacoes>
                         </ItemLista>
                     ))}
