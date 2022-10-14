@@ -71,3 +71,8 @@ Install
 python .\manage.py makemigrations
 - Create by migration
 python .\manage.py migrate
+
+# Technologies
+    MUI Material
+    Hooks and States
+    https://pt-br.reactjs.org/docs/hooks-state.html
